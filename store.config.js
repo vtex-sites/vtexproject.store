@@ -14,7 +14,7 @@ module.exports = {
 
   // Platform specific configs for API
   api: {
-    storeId: 'storeframework',
+    storeId: 'vtexproject',
     workspace: 'master',
     environment: 'vtexcommercestable',
     hideUnavailableItems: true,
@@ -23,22 +23,22 @@ module.exports = {
   // Default session
   session: {
     currency: {
-      code: 'USD',
-      symbol: '$',
+      code: 'BRL',
+      symbol: 'R$',
     },
-    locale: 'en-US',
+    locale: 'pt-BR',
     channel: '{"salesChannel":"1","regionId":""}',
-    country: 'USA',
+    country: 'BRA',
     postalCode: null,
     person: null,
   },
 
   // Production URLs
-  storeUrl: 'https://vtexfaststore.com',
-  secureSubdomain: 'https://secure.vtexfaststore.com',
-  checkoutUrl: 'https://secure.vtexfaststore.com/checkout',
-  loginUrl: 'https://secure.vtexfaststore.com/api/io/login',
-  accountUrl: 'https://secure.vtexfaststore.com/api/io/account',
+  storeUrl: 'https://vtexproject.vtex.app',
+  secureSubdomain: 'https://secure.vtexproject.com',
+  checkoutUrl: 'https://vtexproject.myvtex.com/checkout',
+  loginUrl: 'https://vtexproject.myvtex.com/api/io/login',
+  accountUrl: 'https://vtexproject.myvtex.com/api/io/account',
 
   // Lighthouse CI
   lighthouse: {
