@@ -5,11 +5,6 @@
     "configurationSchemaSets": []
   },
   {
-    "id": "globalComponents",
-    "name": "Global Components",
-    "configurationSchemaSets": []
-  },
-  {
     "id": "page",
     "name": "Page",
     "configurationSchemaSets": [
@@ -55,84 +50,8 @@
     ]
   },
   {
-    "id": "plp",
-    "name": "PLP",
-    "configurationSchemaSets": []
-  },
-  {
     "id": "pdp",
     "name": "Product Page",
-    "configurationSchemaSets": []
-  },
-  {
-    "id": "lp",
-    "name": "Institutional Page",
-    "configurationSchemaSets": [
-      {
-        "name": "SEO",
-        "configurations": [
-          {
-            "name": "seo",
-            "schema": {
-              "title": "SEO",
-              "description": "Search Engine Optimization options",
-              "type": "object",
-              "widget": {
-                "ui:ObjectFieldTemplate": "GoogleSeoPreview"
-              },
-              "required": ["slug", "title", "description"],
-              "properties": {
-                "slug": {
-                  "title": "Path",
-                  "type": "string",
-                  "default": "/"
-                },
-                "title": {
-                  "title": "Default page title",
-                  "description": "Display this title when no other title is available",
-                  "type": "string",
-                  "default": "Iguatemi365"
-                },
-                "description": {
-                  "title": "Meta tag description",
-                  "type": "string",
-                  "default": "Iguatemi365"
-                },
-                "canonical": {
-                  "title": "Canonical url for the page",
-                  "type": "string"
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "name": "Settings",
-        "configurations": [
-          {
-            "name": "pageSettings",
-            "schema": {
-              "title": "Settings",
-              "description": "Configure page data",
-              "type": "object",
-              "required": ["slug"],
-              "properties": {
-                "slug": {
-                  "title": "URL Slug",
-                  "type": "string",
-                  "default": "/landing-page-url"
-                }
-              }
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pdp-gift-card",
-    "name": "PDP Gift Card",
     "configurationSchemaSets": []
   }
 ]
