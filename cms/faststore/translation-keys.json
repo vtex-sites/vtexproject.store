@@ -1,10 +1,1 @@
-{
-  "admin/siteMetadataWithSlug": "Site Metadata",
-  "admin/siteMetadataWithSlugDescription": "Configure global site metadata",
-  "admin/meta/siteMetadataWithSlugTitleFieldTitle": "Default page title",
-  "admin/meta/siteMetadataWithSlugTitleFieldDescription": "Appears on the browser tab and is suggested to search engines",
-  "admin/meta/siteMetadataWithSlugSlugFieldTitle": "URL Slug",
-  "admin/meta/siteMetadataWithSlugFieldDescription": "No spaces allowed",
-  "admin/meta/siteMetadataWithSlugDescriptionFieldTitle": "Meta description",
-  "admin/meta/siteMetadataWithSlugDescriptionFieldDescription": "Suggested to search engines"
-}
+{}
