@@ -1,6 +1,6 @@
 {
   "name": "@faststore/core",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "license": "MIT",
   "browserslist": "supports es6-module and not dead",
   "scripts": {
